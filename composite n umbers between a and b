@@ -10,6 +10,8 @@ int main()
  
  int count = 0;
  int i = 1;
+if(end>start || end==start){cout<<"Invalid Range";}
+else{
 
  cout << "Composite Numbers between " << start <<" and " << end <<": \n";
  for(start=start; start<=end; start++)
@@ -23,6 +25,7 @@ int main()
    cout << start << " ";
   count = 0;
  }
+}
  
  return 0;
 }
